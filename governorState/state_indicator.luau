@@ -21,6 +21,7 @@ local function render()
 	else
 		display = governor
 		icon    = "timeline"
+		colour  = "#8742f5"
 	end
 
 	barWidget.setText(`{display}`)
