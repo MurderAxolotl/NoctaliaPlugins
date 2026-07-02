@@ -1,0 +1,10 @@
+[[plugin]]
+id           = "murderaxolotl/governorState"     # "<author>/<plugin>" - globally unique
+name         = "Governor State"
+version      = "1.0.0"
+min_noctalia = "5.0.0"        # mandatory: minimum Noctalia version
+author       = "MurderAxolotl"
+license      = "MIT"          # optional; defaults to MIT
+deprecated   = false          # optional; defaults to false
+icon         = "puzzle"       # optional
+description  = "Provides an indicator for the current governor"

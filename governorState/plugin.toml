@@ -1,0 +1,18 @@
+id           = "murderaxolotl/governorState"
+name         = "Governor State"
+version      = "1.0.0"
+min_noctalia = "5.0.0"
+author       = "MurderAxolotl"
+icon         = "puzzle"       # optional
+description  = "Provides an indicator for the current governor"
+
+[[widget]]
+id = "state_indicator"
+entry = "state_indicator.luau"
+
+	[[widget.setting]]
+	key   = "execUseSudo"
+	type  = "bool"
+	label = "Use Sudo"
+	description = "Use sudo instead of pkexec. Prevents spawning terminal windows and asking for passwords"
+	default = false
