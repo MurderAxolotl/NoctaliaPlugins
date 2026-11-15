@@ -1,6 +1,6 @@
 id           = "murderaxolotl/governorState"
 name         = "Governor State"
-version      = "1.1.0"
+version      = "1.2.0"
 min_noctalia = "5.0.0"
 plugin_api   = 3
 author       = "MurderAxolotl"
@@ -16,4 +16,11 @@ entry = "state_indicator.luau"
 	type  = "bool"
 	label_key = "settings.us.label"
 	description_key = "settings.us.description"
+	default = false
+
+	[[widget.setting]]
+	key   = "setNoctaliaPowerState"
+	type  = "bool"
+	label_key = "settings.snps.label"
+	description_key = "settings.snps.description"
 	default = false
