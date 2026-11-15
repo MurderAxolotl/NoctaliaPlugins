@@ -1,0 +1,6 @@
+{
+  "settings.us.label": "Sudo Mode",
+  "settings.us.description": "Use sudo instead of pkexec. Prevents spawning terminal windows and asking for passwords",
+  "settings.snps.label": "Overwrite Noctalia",
+  "settings.snps.description": "Sets the system/Noctalia governor (via PPD) in addition to the CPU governor"
+}
