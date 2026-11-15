@@ -1,5 +1,5 @@
 local useSudo = noctalia.getConfig('execUseSudo') or false
-local setNoctaliaPowerState = noctalia.getConfig("setNoctaliaPowerState") or false
+local setNoctaliaPowerState = noctalia.getConfig('setNoctaliaPowerState') or false
 
 local function render()
 	governor = string.gsub(noctalia.readFile("/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor") or "?", "\n", "")
@@ -56,7 +56,7 @@ function onClick()
 		end
 
 		if governor == "performance" then
-			noctalia.runAsync("powerprofilesctl set powersave")
+			noctalia.runAsync("powerprofilesctl set power-saver")
 		end
 	end
 

@@ -1,7 +1,7 @@
 [[plugin]]
 id           = "murderaxolotl/governorState"
 name         = "Governor State"
-version      = "1.2.0"
+version      = "1.2.1"
 min_noctalia = "5.0.0"
 plugin_api   = 3
 author       = "MurderAxolotl"
